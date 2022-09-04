@@ -1,0 +1,191 @@
+html,
+body {
+  margin: 0;
+  background: #eae2b7;
+  height: 100%;
+  width: 100%;
+}
+
+/*Nav*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 200px;
+  width: 250px;
+}
+
+header {
+  height: 3cm;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  padding: 0 50px 0 50px;
+}
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.links li {
+  margin: 0 10px 0 10px;
+}
+
+.links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  color: orange;
+}
+/*End of Nav*/
+
+/* The hero image */
+main {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/herofood.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+
+.button {
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: orange;
+  transition: 0.7s;
+}
+/*End Of Hero*/
+
+/*Contact US Header*/
+.contact-header {
+  text-align: center;
+}
+
+/*Meal Header*/
+
+#menu {
+  display: table-cell;
+  position: relative;
+  background-color: orange;
+  height: 100px;
+  width: 3000px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*Menu Changes*/
+
+.item {
+  text-align: center;
+  margin: 75px;
+  padding: 10px;
+}
+
+.container-food {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item {
+  border: solid;
+  border-color: black;
+  margin: 50px;
+}
+
+/*Feedback Form*/
+label,
+input {
+  display: table-cell;
+}
+
+form {
+  margin-left: 30%;
+}
+
+label {
+  padding-right: 10px;
+}
+
+/*End of Feedback Form*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+  height: auto;
+  padding-top: 20px;
+  color: white;
+  position: absolute;
+  bottom: -20%;
+  width: 100%;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+  height: auto;
+  padding-top: 20px;
+  color: white;
+  position: absolute;
+  bottom: -370%;
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-right: 2%;
+  list-style: none;
+}
+
+.socials li {
+  margin: 0 10px 0 10px;
+}
+
+.socials li a {
+  border-radius: 100%;
+  background-color: gray;
+  color: black;
+  padding: 10px;
+}
+
+.copyright {
+  text-align: center;
+}
